@@ -91,14 +91,14 @@ p.nominalBounds = new cjs.Rectangle(0,0,92,110);
 p.nominalBounds = new cjs.Rectangle(0,0,78,14);
 
 
-(lib.Farbfüllung1 = function() {
-	this.initialize(img.Farbfüllung1);
+(lib.farbfuellung1 = function() {
+	this.initialize(img.farbfuellung1);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,600,500);
 
 
-(lib.Farbfüllung2 = function() {
-	this.initialize(img.Farbfüllung2);
+(lib.farbfuellung2 = function() {
+	this.initialize(img.farbfuellung2);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,600,500);
 
@@ -462,8 +462,8 @@ if (reversed == null) { reversed = false; }
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(1));
 
-	// Farbfüllung_1
-	this.instance_4 = new lib.Farbfüllung1();
+	// farbfuellung_1
+	this.instance_4 = new lib.farbfuellung1();
 	this.instance_4.setTransform(0,0,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(1));
@@ -486,7 +486,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Farbfuellung_2
-	this.instance = new lib.Farbfüllung2();
+	this.instance = new lib.farbfuellung2();
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
@@ -671,8 +671,8 @@ lib.properties = {
 		{src:"images/AS_GFA_weiss_sRGB.png", id:"AS_GFA_weiss_sRGB"},
 		{src:"images/AS_Logo_ohneGFAKopie.png", id:"AS_Logo_ohneGFAKopie"},
 		{src:"images/Cucina.png", id:"Cucina"},
-		{src:"images/Farbfüllung1.jpg", id:"Farbfüllung1"},
-		{src:"images/Farbfüllung2.jpg", id:"Farbfüllung2"},
+		{src:"images/farbfuellung1.jpg", id:"farbfuellung1"},
+		{src:"images/farbfuellung2.jpg", id:"farbfuellung2"},
 		{src:"images/Gutes.png", id:"Gutes"},
 		{src:"images/Kundenmonitor_2025_ANAS_04_Preissieger.png", id:"Kundenmonitor_2025_ANAS_04_Preissieger"},
 		{src:"images/Linie1.png", id:"Linie1"},
