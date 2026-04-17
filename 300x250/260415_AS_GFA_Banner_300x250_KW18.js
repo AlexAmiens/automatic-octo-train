@@ -462,7 +462,7 @@ if (reversed == null) { reversed = false; }
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(1));
 
-	// farbfuellung_1
+	// farbfuellung1
 	this.instance_4 = new lib.farbfuellung1();
 	this.instance_4.setTransform(0,0,0.5,0.5);
 
@@ -485,7 +485,7 @@ if (reversed == null) { reversed = false; }
 	props.reversed = reversed;
 	cjs.MovieClip.apply(this,[props]);
 
-	// Farbfuellung_2
+	// Farbfuellung2
 	this.instance = new lib.farbfuellung2();
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
